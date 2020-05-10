@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hakkımda</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body style="background-color: #737373">
+<section>
+    <div class="container">
+        <div class="row">
+                <nav class="navbar   navbar-toggleable-sm navbar-expand-sm fixed-top navbar-light" style="background-color: #000000">
+                        <a class="navbar-brand" style="color: aliceblue" href="#">Mertcan</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                         <div class="navbar-nav">
+                           <a class="nav-item nav-link" href="Anasayfa.html">Anasayfa <span class="sr-only">(current)</span></a>
+                           <a class="nav-item nav-link" href="Hakk%C4%B1mda.html">Hakkımda</a>
+                           <a class="nav-item nav-link" href="CV.html">Özgeçmiş</a>
+                           <a class="nav-item nav-link" href="%C5%9Eehrim.html">Şehrim</a>
+                           <a class="nav-item nav-link" href="Miras%C4%B1m%C4%B1z.html">Mirasımız</a>
+                           <a class="nav-item nav-link" href="Giri%C5%9F.html">Giriş</a>
+                           <a class="nav-item nav-link" href="%C4%B0leti%C5%9Fim.html">İletişim</a>
+                        </div>
+                    </div>
+              </nav>
+        </div> 
+    </div> 
+    
+    </section>
+    
+    <section >
+    <div class="container">
+        <div>
+            <br> <br><br> <br>
+        <p><font color="#ffffff">
+           <h2>Küçüklük Fotoğraflarım</h2>
+            <div class="w3-content w3-section" style="max-width:500">
+  <img class="mySlides" src="../images/Mertcan1.jpeg" style="width:70%">
+  <img class="mySlides" src="../images/Mertcan2.jpeg" style="width:70%">
+  <img class="mySlides" src="../images/Mertcan3.jpeg" style="width:70%">
+</div>
+
+
+    <p>   Ben Mertcan Demiralan(E-posta adresim:mertcan_demiralan44@hotmail.com)<br>
+           8 Eylül 2000 doğumluyum. İstanbul ilinin Bağcılar ilçesinde doğdum. Şu an 19 yaşındayım.Sakarya üniversitesi bilgisayar mühendisliğinde 1.Sınıf öğrencisiyim.Annemin ismi Sevgi ve ev hanımı.13 yaşında bir kız kardeşim var.Kardeşim ismi Beyza.Lise sınavına hazırlanıyor.Babam ismi Adil . Bilgisayar mühendisiydi ve İstanbul Havalimanında çalışıyordu .17 Mayıs 2017’de kalp krizi geçirerek vefat etti.
+        <br>    
+        Ortaokulda 2 yıl  gitar çaldım.Lise birsüre Ardiunoyla ilgilendim.<br>
+        Kendimi geliştirmek için geçen yaz Java öğrenmeye çalıştım.Bu yazda İstanbul Havlimanında  gönüllü staj yaparak Java alanında kendimi geliştirmek istiyorum.</p>
+
+
+            
+            
+            
+            </font></p>
+        </div>  
+        <div class="social">
+            <a href="https://www.facebook.com/mertcan.demiralan"  class="fa fa-facebook fa-2x"></a>
+        
+            <a href="https://tr.linkedin.com/in/mertcan-demiralan-3b1768192" class="fa fa-linkedin fa-2x"></a>
+            <a href="https://www.instagram.com/mertcandemiralan/" class="fa fa-instagram fa-2x"></a>
+			</div>
+        
+  
+    </div>
+    
+    
+    </section>
+    
+ <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

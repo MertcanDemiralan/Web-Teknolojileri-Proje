@@ -1,0 +1,159 @@
+html,
+body,
+#cover{
+    height: 100%;
+}
+#cover{
+ background: url('../images/WebAnaSayfa2.webp')no-repeat center center fixed;
+ background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+   
+}
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto;
+}
+h1{
+    margin-top: 20%;
+    font-family: 'Droid Serif','serif';
+    color: #ffffff;
+    font-size: 52px;
+    font-style:oblique;
+    margin-bottom:30px; 
+}
+h2{
+    font-family:'Montserrat', sans-serif;
+    color:#ffffff;
+    font-size: 75px;
+    font-weight:600;
+    margin-bottom:40px; 
+}
+h3{
+   margin-bottom:40px;  
+}
+.btn-primary{
+    background-color:dodgerblue;
+    border-style: none;
+    font-family:'Montserrat', sans-serif;  
+    font-size: 20px;
+    padding: 20px 40px;
+}
+.btn-primary:hover{
+    background-color: #ffffff;
+    color:#fed136;
+}
+a.nav-link{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+     border-style: none;
+    color: white!important;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+   -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    
+}
+a.nav-link:hover{
+    color: #3366ff!important;
+}
+<style>
+.fa {
+ background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+}
+
+.fa:hover {
+    transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+}
+
+.fa-facebook {
+  background-color: #3b5998;
+      transform: rotate(360deg);
+      border-radius: 50%;	
+}
+
+
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+ background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	
+}
+
+
+
+.fa-instagram {
+   background-color: #bc2a8d;
+      transform: rotate(360deg);
+      border-radius: 50%;	
+}
+
+
+.Bar {
+  width: 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 50%; background-color: #4CAF50;}
+.cs {width: 50%; background-color: #2196F3;} 
+.java {width: 60%; background-color: #f44336;}
+.cpp {width: 50%; background-color: slateblue;} 
+
+
+.iletişim{
+    width: 650px;
+    height: 550px;
+    margin:0px auto;
+    position: relative;
+    top:40px;
+}
+.Giriş{
+    width: 650px;
+    height: 350px;
+    margin:0px auto;
+    position: relative;
+    top:150px;
+}
+
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 200px;
+}
+
+.bodi {
+        margin: auto;
+        text-align: center;
+    }
